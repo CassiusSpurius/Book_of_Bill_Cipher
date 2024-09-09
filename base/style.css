@@ -1,0 +1,979 @@
+body {
+    color: #ece2e2;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: 'Squada One', sans-serif;
+    background-color: #090915;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: calc(-1 * (100vw - 100%));
+    overflow-x: hidden;
+}
+
+/*!HEADER*/
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.inner {
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+    align-items: center;
+}
+.header_nav_list {
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+    margin-right: 75px;
+}
+ul {
+    list-style: none;
+}
+.list_item a {
+    transition: all .4s ease;
+    display: inline-block;
+}
+.list_item a:hover {
+    color: #1566fd;
+    transform: scale(1.05);
+}
+.header_content_last {
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+}
+.header_content_last a {
+    background-color: #ece2e2;
+    text-decoration: none;
+    color: #0d0d1b;
+    padding: 10px 15px;
+    border-radius: 70px;
+    transition: background-color 0.5s;
+}
+.header_content_last a:hover {
+    background-color: #1566fd;
+    color: #ece2e2;
+}
+.circle {
+    text-align: center;
+   width: 50px;
+    height: 30px;
+    position: relative;
+    top: 50px;
+    background-color: #ece2e2;
+    color: #0d0d1b;
+    border: 10px solid #ece2e2;
+    border-radius: 30px;
+    font-family: 'Squada One', sans-serif;
+    font-size: 20px;
+    display: none;
+}
+
+/*!PHOTO*/
+.BillPhoto {
+    width: 150px;
+    height: 200px;
+    filter: drop-shadow(0 0 5px #1566fd);
+    transition: transform 0.5s ease;
+}
+.BillPhoto:hover {
+    transform: scale(1.25);
+}
+.Bill_Art_2 {
+    width: 540px;
+    height: 530px;
+}
+.Baby_Bill_TV {
+    width: 500px;
+    height: 400px;
+}
+.COOL_Bill {
+    width: 450px;
+    height: 430px;
+    transform: scale(-1,1);
+}
+.Ford_photo {
+    width: 340px;
+    height: 460px;
+}
+
+/*MAIN*/
+main{
+    padding: 50px 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_01 {
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Permanent Marker", sans-serif;
+    color: #ece2e2;
+    text-shadow: 0 0 10px #09d2ff;
+}
+.title {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ece2e2;
+    background-image: linear-gradient( #1566fd, #09d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    font-size: 55px;
+}
+.Well {
+    display: flex;
+    text-align: left;
+}
+.WWW_Text {
+    width: 620px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    position: relative;
+    height: 50px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+}
+.weeell {
+    margin-bottom: 20px;
+}
+.yellow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ece2e2;
+    text-shadow: 0 0 10px #09d2ff;
+    font-size: 35px;
+}
+.WWW_img {
+    margin-left: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+/*TEY*/
+.TEY{
+    padding: 30px 0 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TEY_top {
+    margin-bottom: 50px;
+}
+.TEY_top_01 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0;
+    font-family: "Nerko One", sans-serif;
+    word-spacing: 5px;
+    background-image: linear-gradient(#ea1e42, #f85a8a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.TEY_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+}
+.TEY_left{
+    margin: 0 60px 0 0;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+.TEY_right {
+    position: relative;
+    bottom: 40px;
+    right: 40px;
+    display: inline-block;
+    transform: translate(0, -30px);
+    color: #ece2e2;
+    text-shadow: 0 0 10px #ea1e42;
+    font-size: 30px;
+    line-height: 48px;
+}
+.text_Bill {
+    font-size: 45px;
+}
+.right_footer {
+    font-size: 45px;
+}
+/*TGT*/
+.TGT {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0 70px;
+}
+.HOG_Bill {
+    text-align: center;
+    font-size: 75px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-family: "Pirata One", sans-serif;
+    word-spacing: 5px;
+    background-image: linear-gradient(#d14209, #ffda1c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text_HOG {
+    font-size: 31px;
+    display: flex;
+    line-height: 52px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    color: #ece2e2;
+    text-shadow: 0 0 20px #d14209;
+    position: relative;
+    top: 10px;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+.HOG_list_01 {
+   list-style-type: none;
+    padding: 0 25px 0 0;
+    max-width: 850px;
+    margin: 0;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+.HOG_item {
+    margin-bottom: 7px;
+}
+.COOL_BILL_01 {
+    position: relative;
+    right: 10px;
+    top: 40px;
+}
+
+/*SIX*/
+.SIX {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 70px;
+    box-sizing: border-box;
+}
+.title_Ford {
+    text-align: center;
+    font-size: 60px;
+    word-spacing: 5px;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    background-image: linear-gradient(#067c42, #47cf59);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.inner_Ford {
+    display: grid;
+    grid-template-columns: 1fr 400px 200px;
+}
+.Ford {
+    position: relative;
+    right: 130px;
+    bottom: 60px;
+}
+.text_Ford {
+    width: 1000px;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    right: 200px;
+    top: -20px;
+    font-family: "Pacifico", sans-serif;
+    text-shadow: 0 0 20px #067c42;
+    line-height: 47px;
+}
+.last_text_footer {
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    line-height: 47px;
+}
+
+/*FOOTER*/
+.fine_0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    text-shadow: 0 0 20px #1566fd;
+    color: #ece2e2;
+    word-spacing: 10px;
+}
+.fine_01 {
+   position: relative;
+    font-size: 50px;
+}
+.fine_02 {
+    position: relative;
+    top: 60px;
+    font-size: 40px;
+}
+.fine_03 {
+    position: relative;
+    top: 130px;
+    font-size: 30px;
+}
+.fine_04 {
+    position: relative;
+    font-size: 25px;
+    top: 200px;
+    left: 20px;
+}
+.fine_05 {
+    position: relative;
+    top: 260px;
+    font-size: 20px;
+    left: 50px;
+}
+.fine_06 {
+    position: relative;
+    top: 310px;
+    font-size: 15px;
+    left: 90px;
+}
+.close {
+position: relative;
+    top: 600px;
+    right: 190px;
+}
+.nothing {
+    height: 440px;
+}
+
+@media (max-width: 1200px) {
+    /*HEADER*/
+    .header_nav_list {
+        font-size: 20px;
+    }
+    .header_content_last {
+        font-size: 20px;
+        margin-right:15px;
+    }
+    .BillPhoto {
+        width: 115px;
+        height: 160px;
+    }
+
+    /*MAIN*/
+    .main {
+        margin-bottom: 40px;
+    }
+    .title {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .Bill_Art_2 {
+        width: 410px;
+        height: 400px;
+    }
+    .yellow {
+        font-size: 25px;
+    }
+    .WWW_Text {
+        max-width: 450px;
+        font-size: 20px;
+        line-height: 35px;
+        position: relative;
+        top: 15px;
+    }
+    .WWW_img {
+        position: relative;
+        bottom: 5px;
+    }
+
+    /*TEY*/
+    .TEY_top_01 {
+        font-size: 40px;
+    }
+    .TEY_left {
+        margin-right: 20px;
+        position: relative;
+        right: 20px;
+    }
+    .TEY_right {
+        max-width: 600px;
+        line-height: 40px;
+        position: relative;
+        top: -15px;
+        right: 50px;
+    }
+    .right_main {
+        font-size: 25px;
+    }
+    .right_main_02 {
+        font-size: 25px;
+    }
+    .text_Bill {
+        font-size: 25px;
+    }
+    .right_footer {
+        font-size: 25px;
+    }
+    .Baby_Bill_TV {
+        width: 400px;
+        height: 300px;
+    }
+
+    /*TGT*/
+    .TGT {
+        margin-bottom: 60px;
+    }
+    .HOG_Bill {
+        font-size: 48px;
+    }
+    .HOG_list_01 {
+        position: relative;
+        max-width: 650px;
+        left: 25px;
+        line-height: 40px;
+        font-size: 23px;
+        padding: 0;
+        text-align: center;
+    }
+    .COOL_Bill {
+        width: 360px;
+        height: 340px;
+    }
+    .COOL_BILL_01 {
+        position: relative;
+        right: 25px;
+        top: 40px;
+        bottom: 0;
+    }
+
+    /*SIX*/
+    .SIX {
+        margin-bottom: 50px;
+    }
+    .title_Ford {
+        font-size: 35px;
+    }
+    .Ford_photo {
+        width: 260px;
+        height: 380px;
+    }
+    .Ford {
+        position: relative;
+        left: -40px;
+        top: -5px;
+    }
+    .text_Ford {
+        font-size: 24px;
+        position: relative;
+        right: 0;
+        left: -210px;
+        top: -10px;
+    }
+    .last_text_footer {
+        font-size: 24px;
+    }
+
+    /*FOOTER*/
+    .fine_01 {
+        font-size: 30px;
+    }
+    .fine_02 {
+        font-size: 28px;
+    }
+    .fine_03 {
+        font-size: 26px;
+    }
+    .fine_04 {
+        font-size: 24px;
+    }
+    .fine_05 {
+        font-size: 22px;
+    }
+    .fine_06 {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    /*HEADER*/
+    .header {
+        margin-bottom: 0;
+    }
+    .header_nav_list {
+        font-size: 14px;
+    }
+    .header_content_last {
+        font-size: 14px;
+        margin-right:25px;
+    }
+    .BillPhoto {
+        width: 90px;
+        height: 135px;
+    }
+
+    /*MAIN*/
+    .main {
+        margin-bottom: 25px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .Bill_Art_2 {
+        width: 280px;
+        height: 270px;
+    }
+    .yellow {
+        font-size: 18px;
+    }
+    .WWW_Text {
+        max-width: 420px;
+        font-size: 15px;
+        line-height: 31px;
+        position: relative;
+        top: -5px;
+        left: 5px;
+        padding-right: 10px;
+    }
+    .WWW_img {
+        position: relative;
+        bottom: 5px;
+        right: 40px;
+    }
+
+    /*TEY*/
+    .TEY_top_01 {
+        font-size: 28px;
+    }
+    .right_main {
+        font-size: 18px;
+    }
+    .right_main_02 {
+        font-size: 18px;
+    }
+    .text_Bill {
+        font-size: 18px;
+    }
+    .right_footer {
+        font-size: 18px;
+    }
+    .Baby_Bill_TV {
+        width: 290px;
+        height: 190px;
+    }
+    .Baby_Bill_TV {
+        position: relative;
+        right: 30px;
+        bottom: -15px;
+    }
+    .TEY_right {
+        line-height: 23px;
+        position: relative;
+        top: -10px;
+    }
+    .TEY_top {
+        margin-bottom: 40px}
+    .TEY {
+        padding-bottom: 40px;
+    }
+
+    /*TGT*/
+    .TGT {
+        margin-bottom: 17px;
+        padding-bottom: 40px;
+    }
+    .HOG_Bill {
+        font-size: 33px;
+        margin-bottom: 27px;
+    }
+    .HOG_list_01 {
+        position: relative;
+        left: 10px;
+        top: -20px;
+        line-height: 23px;
+        font-size: 18px;
+    }
+    .COOL_Bill {
+        width: 250px;
+        height: 230px;
+    }
+    .COOL_BILL_01 {
+        position: relative;
+        right: 25px;
+        top: -7px;
+    }
+
+    /*SIX*/
+    .SIX {
+        margin-bottom: 20px;
+        padding-bottom: 120px;
+    }
+    .title_Ford {
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+    .Ford_photo {
+        width: 190px;
+        height: 300px;
+    }
+    .Ford {
+        position: relative;
+        left: 40px;
+        top: -13px;
+    }
+    .text_Ford {
+        font-size: 18px;
+        position: relative;
+        line-height: 35px;
+        left: -210px;
+    }
+    .last_text_footer {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    /*FOOTER*/
+    ._FINE {
+        margin-bottom: 20px;
+    }
+    .fine_01 {
+        font-size: 22px;
+    }
+    .fine_02 {
+        font-size: 20px;
+    }
+    .fine_03 {
+        font-size: 18px;
+    }
+    .fine_04 {
+        font-size: 16px;
+    }
+    .fine_05 {
+        font-size: 14px;
+    }
+    .fine_06 {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    /*HEADER*/
+    .header_logo {
+        margin-right: 10px;
+    }
+    .BillPhoto {
+        width: 90px;
+        height: 125px;
+    }
+    .header_content_last {
+        display: none;
+    }
+    .header_nav {
+        display: none;
+    }
+    .circle {
+        display: block;
+    }
+
+    /*MAIN*/
+    .Well {
+        display: inline-block;
+    }
+    .WWW_img {
+        display: flex;
+        justify-content: center;
+        left: 0;
+        right: 0;
+        top: 160px;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .title{
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+    .yellow {
+        bottom: 0;
+        top: 20px;
+    }
+    .WWW_Text {
+        left: -5px;
+        right: 0;
+        top: -10px;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .Bill_Art_2 {
+        width: 310px;
+        height: 290px;
+    }
+
+    /*TEY*/
+    .TEY_inner {
+        display: inline;
+    }
+    .TEY_top {
+        position: relative;
+        top: 120px;
+    }
+    .TEY_top_01 {
+        font-size: 26px;
+        position: relative;
+        right: 10px;
+    }
+    .TEY_left {
+        top: 70px;
+        left: 120px;
+    }
+    .TEY_right {
+        max-height: 3000px;
+        position: relative;
+        top: 110px;
+        left: 55px;
+    }
+    .right_main {
+        font-size: 16px;
+    }
+    .right_main_02 {
+        font-size: 16px;
+    }
+    .right_footer {
+        font-size: 16px;
+    }
+
+    /*TGT*/
+    .text_HOG {
+        display: inline;
+    }
+    .HOG_Bill {
+        position: relative;
+        top: 50px;
+        right: 5px;
+        font-size: 33px;
+    }
+    .HOG_list_01 {
+        position: relative;
+        top: 30px;
+        left: -10px;
+        font-size: 15px;
+    }
+    .COOL_BILL_01 {
+        top: 40px;
+        right: -100px;
+    }
+
+    /*SIX*/
+    .inner_Ford {
+        display: inline-block;
+    }
+    .title_Ford {
+        font-size: 23px;
+        position: relative;
+        top: 10px;
+    }
+    .Ford_photo {
+        position: relative;
+        left: 90px;
+        width: 190px;
+        height: 270px;
+    }
+    .text_Ford {
+        max-width: 400px;
+        position: relative;
+        left: -10px;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    /*FOOTER*/
+    .fine_0 {
+        position: relative;
+        right: 50px;
+        margin-top: 50px;
+    }
+    .fine_01 {
+        font-size: 20px;
+        top: 30px;
+    }
+    .fine_02 {
+        font-size: 18px;
+        top: 70px;
+    }
+    .fine_03 {
+        font-size: 16px;
+        top: 120px;
+    }
+    .fine_04 {
+        font-size: 14px;
+        top: 170px;
+    }
+    .fine_05 {
+        font-size: 12px;
+        top: 220px;
+    }
+    .fine_06 {
+        font-size: 10px;
+        top: 260px;
+        left: 75px;
+    }
+}
+
+@media (max-width: 480px) {
+    /*MAIN*/
+    .title {
+        font-size: 20px;
+    }
+    .weeell {
+        position: relative;
+        bottom: 25px;
+    }
+    .WWW_Text {
+        max-width: 300px;
+        font-size: 12px;
+        line-height: 22px;
+        position: relative;
+        top: -5px;
+        left: 5px;
+        padding-right: 10px;
+    }
+    .WWW_img {
+        position: relative;
+        bottom: 5px;
+        right: 40px;
+    }
+
+    /*TEY*/
+    .TEY_top_01 {
+        font-size: 18px;
+        right: 3px;
+    }
+    .TEY_left {
+        left: 70px;
+    }
+    .right_main {
+        position: relative;
+        left: -45px;
+        font-size: 15px;
+    }
+    .right_main_02 {
+        font-size: 15px;
+        position: relative;
+        left: -45px;
+    }
+    .right_footer {
+        font-size: 15px;
+        position: relative;
+        right: 45px;
+    }
+    .Baby_Bill_TV {
+        width: 270px;
+    }
+
+    /*TGT*/
+    .HOG_Bill {
+        font-size: 25px;
+    }
+    .HOG_item_0 {
+        line-height: 22px;
+    }
+    .HOG_list_01 {
+        max-width: 330px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .COOL_BILL_01 {
+        right: -30px;
+    }
+    .HOG_item_01 {
+        line-height: 25px;
+    }
+
+    /*SIX*/
+    .title_Ford {
+        right: 15px;
+    }
+    .text_Ford {
+        max-width: 350px;
+        font-size: 15px;
+    }
+    .last_text_footer {
+        max-width: 330px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .Ford {
+        position: relative;
+        left: -10px;
+    }
+
+    /*FOOTER*/
+    ._FINE {
+        position: relative;
+        right: -30px;
+    }
+    .fine_0 {
+        right: 50px;
+        margin-top: 50px;
+    }
+    .fine_01 {
+        font-size: 18px;
+        top: 30px;
+        right: -15px;
+    }
+    .fine_02 {
+        font-size: 16px;
+        top: 70px;
+        right: 5px;
+    }
+    .fine_03 {
+        font-size: 14px;
+        top: 120px;
+        right: 15px;
+    }
+    .fine_04 {
+        font-size: 12px;
+        top: 170px;
+        left: -25px;
+    }
+    .fine_05 {
+        font-size: 10px;
+        top: 220px;
+        left: -20px;
+    }
+    .fine_06 {
+        font-size: 8px;
+        top: 260px;
+        left: -10px;
+    }
+}
